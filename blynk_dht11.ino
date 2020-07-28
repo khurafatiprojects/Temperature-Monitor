@@ -46,12 +46,12 @@ LiquidCrystal_I2C lcd(0x27,16,2);     // set the LCD address to 0x27 for a 16 ch
 
 // You should get Auth Token in the Blynk App.
 // Go to the Project Settings (nut icon).
-char auth[] = "jmzs76_IhJ0Z2t4WwmffA_FeqNOrbuuB";
+char auth[] = "YourAuthToken";
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "khurafati";
-char pass[] = "h!m@n$hu97";
+char ssid[] = "YourNetworkName";
+char pass[] = "YourPassword";
 
 #define DHTPIN D3          // What digital pin we're connected to
 
